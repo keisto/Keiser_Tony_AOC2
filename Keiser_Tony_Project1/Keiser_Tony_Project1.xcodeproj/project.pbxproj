@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1253E9E18456E6200428FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253E9D18456E6200428FAA /* Foundation.framework */; };
+		C1253EA018456E6200428FAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253E9F18456E6200428FAA /* CoreGraphics.framework */; };
+		C1253EA218456E6200428FAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253EA118456E6200428FAA /* UIKit.framework */; };
+		C1253EA818456E6200428FAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1253EA618456E6200428FAA /* InfoPlist.strings */; };
+		C1253EAA18456E6200428FAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1253EA918456E6200428FAA /* main.m */; };
+		C1253EAE18456E6200428FAA /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1253EAD18456E6200428FAA /* XYZAppDelegate.m */; };
+		C1253EB118456E6200428FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1253EAF18456E6200428FAA /* Main.storyboard */; };
+		C1253EB418456E6200428FAA /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1253EB318456E6200428FAA /* XYZViewController.m */; };
+		C1253EB618456E6200428FAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1253EB518456E6200428FAA /* Images.xcassets */; };
+		C1253EBD18456E6200428FAA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253EBC18456E6200428FAA /* XCTest.framework */; };
+		C1253EBE18456E6200428FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253E9D18456E6200428FAA /* Foundation.framework */; };
+		C1253EBF18456E6200428FAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253EA118456E6200428FAA /* UIKit.framework */; };
+		C1253EC718456E6200428FAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1253EC518456E6200428FAA /* InfoPlist.strings */; };
+		C1253EC918456E6200428FAA /* Keiser_Tony_Project1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1253EC818456E6200428FAA /* Keiser_Tony_Project1Tests.m */; };
+		C1A0BA5F184D5A9000AB2B0D /* ProteinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A0BA5E184D5A9000AB2B0D /* ProteinFactory.m */; };
+		C1A0BA62184D5ABE00AB2B0D /* BaseProtein.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A0BA61184D5ABE00AB2B0D /* BaseProtein.m */; };
+		C1A0BA65184D5AEA00AB2B0D /* Chicken.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A0BA64184D5AEA00AB2B0D /* Chicken.m */; };
+		C1A0BA68184D5AF900AB2B0D /* Steak.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A0BA67184D5AF900AB2B0D /* Steak.m */; };
+		C1A0BA6B184D5B3300AB2B0D /* Tilapia.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A0BA6A184D5B3300AB2B0D /* Tilapia.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1253EC018456E6200428FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1253E9218456E6100428FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1253E9918456E6200428FAA;
+			remoteInfo = Keiser_Tony_Project1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1253E9A18456E6200428FAA /* Keiser_Tony_Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keiser_Tony_Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1253E9D18456E6200428FAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1253E9F18456E6200428FAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1253EA118456E6200428FAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1253EA518456E6200428FAA /* Keiser_Tony_Project1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Keiser_Tony_Project1-Info.plist"; sourceTree = "<group>"; };
+		C1253EA718456E6200428FAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1253EA918456E6200428FAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1253EAB18456E6200428FAA /* Keiser_Tony_Project1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keiser_Tony_Project1-Prefix.pch"; sourceTree = "<group>"; };
+		C1253EAC18456E6200428FAA /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		C1253EAD18456E6200428FAA /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		C1253EB018456E6200428FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1253EB218456E6200428FAA /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
+		C1253EB318456E6200428FAA /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
+		C1253EB518456E6200428FAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1253EBB18456E6200428FAA /* Keiser_Tony_Project1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Keiser_Tony_Project1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1253EBC18456E6200428FAA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C1253EC418456E6200428FAA /* Keiser_Tony_Project1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Keiser_Tony_Project1Tests-Info.plist"; sourceTree = "<group>"; };
+		C1253EC618456E6200428FAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1253EC818456E6200428FAA /* Keiser_Tony_Project1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Keiser_Tony_Project1Tests.m; sourceTree = "<group>"; };
+		C1375FED184D817C00E57FED /* BaseProtein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseProtein.h; sourceTree = "<group>"; };
+		C1A0BA5D184D5A9000AB2B0D /* ProteinFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProteinFactory.h; sourceTree = "<group>"; };
+		C1A0BA5E184D5A9000AB2B0D /* ProteinFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProteinFactory.m; sourceTree = "<group>"; };
+		C1A0BA61184D5ABE00AB2B0D /* BaseProtein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseProtein.m; sourceTree = "<group>"; };
+		C1A0BA63184D5AEA00AB2B0D /* Chicken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chicken.h; sourceTree = "<group>"; };
+		C1A0BA64184D5AEA00AB2B0D /* Chicken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chicken.m; sourceTree = "<group>"; };
+		C1A0BA66184D5AF900AB2B0D /* Steak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Steak.h; sourceTree = "<group>"; };
+		C1A0BA67184D5AF900AB2B0D /* Steak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Steak.m; sourceTree = "<group>"; };
+		C1A0BA69184D5B3300AB2B0D /* Tilapia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tilapia.h; sourceTree = "<group>"; };
+		C1A0BA6A184D5B3300AB2B0D /* Tilapia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tilapia.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1253E9718456E6200428FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1253EA018456E6200428FAA /* CoreGraphics.framework in Frameworks */,
+				C1253EA218456E6200428FAA /* UIKit.framework in Frameworks */,
+				C1253E9E18456E6200428FAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1253EB818456E6200428FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1253EBD18456E6200428FAA /* XCTest.framework in Frameworks */,
+				C1253EBF18456E6200428FAA /* UIKit.framework in Frameworks */,
+				C1253EBE18456E6200428FAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1253E9118456E6100428FAA = {
+			isa = PBXGroup;
+			children = (
+				C1253EA318456E6200428FAA /* Keiser_Tony_Project1 */,
+				C1253EC218456E6200428FAA /* Keiser_Tony_Project1Tests */,
+				C1253E9C18456E6200428FAA /* Frameworks */,
+				C1253E9B18456E6200428FAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1253E9B18456E6200428FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1253E9A18456E6200428FAA /* Keiser_Tony_Project1.app */,
+				C1253EBB18456E6200428FAA /* Keiser_Tony_Project1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1253E9C18456E6200428FAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1253E9D18456E6200428FAA /* Foundation.framework */,
+				C1253E9F18456E6200428FAA /* CoreGraphics.framework */,
+				C1253EA118456E6200428FAA /* UIKit.framework */,
+				C1253EBC18456E6200428FAA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1253EA318456E6200428FAA /* Keiser_Tony_Project1 */ = {
+			isa = PBXGroup;
+			children = (
+				C1253EAC18456E6200428FAA /* XYZAppDelegate.h */,
+				C1253EAD18456E6200428FAA /* XYZAppDelegate.m */,
+				C1253EAF18456E6200428FAA /* Main.storyboard */,
+				C1253EB218456E6200428FAA /* XYZViewController.h */,
+				C1253EB318456E6200428FAA /* XYZViewController.m */,
+				C1253EB518456E6200428FAA /* Images.xcassets */,
+				C1253EA418456E6200428FAA /* Supporting Files */,
+				C1A0BA5D184D5A9000AB2B0D /* ProteinFactory.h */,
+				C1A0BA5E184D5A9000AB2B0D /* ProteinFactory.m */,
+				C1A0BA61184D5ABE00AB2B0D /* BaseProtein.m */,
+				C1A0BA63184D5AEA00AB2B0D /* Chicken.h */,
+				C1A0BA64184D5AEA00AB2B0D /* Chicken.m */,
+				C1A0BA66184D5AF900AB2B0D /* Steak.h */,
+				C1375FED184D817C00E57FED /* BaseProtein.h */,
+				C1A0BA67184D5AF900AB2B0D /* Steak.m */,
+				C1A0BA69184D5B3300AB2B0D /* Tilapia.h */,
+				C1A0BA6A184D5B3300AB2B0D /* Tilapia.m */,
+			);
+			path = Keiser_Tony_Project1;
+			sourceTree = "<group>";
+		};
+		C1253EA418456E6200428FAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1253EA518456E6200428FAA /* Keiser_Tony_Project1-Info.plist */,
+				C1253EA618456E6200428FAA /* InfoPlist.strings */,
+				C1253EA918456E6200428FAA /* main.m */,
+				C1253EAB18456E6200428FAA /* Keiser_Tony_Project1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1253EC218456E6200428FAA /* Keiser_Tony_Project1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1253EC818456E6200428FAA /* Keiser_Tony_Project1Tests.m */,
+				C1253EC318456E6200428FAA /* Supporting Files */,
+			);
+			path = Keiser_Tony_Project1Tests;
+			sourceTree = "<group>";
+		};
+		C1253EC318456E6200428FAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1253EC418456E6200428FAA /* Keiser_Tony_Project1Tests-Info.plist */,
+				C1253EC518456E6200428FAA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1253E9918456E6200428FAA /* Keiser_Tony_Project1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1253ECC18456E6200428FAA /* Build configuration list for PBXNativeTarget "Keiser_Tony_Project1" */;
+			buildPhases = (
+				C1253E9618456E6200428FAA /* Sources */,
+				C1253E9718456E6200428FAA /* Frameworks */,
+				C1253E9818456E6200428FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keiser_Tony_Project1;
+			productName = Keiser_Tony_Project1;
+			productReference = C1253E9A18456E6200428FAA /* Keiser_Tony_Project1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1253EBA18456E6200428FAA /* Keiser_Tony_Project1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1253ECF18456E6200428FAA /* Build configuration list for PBXNativeTarget "Keiser_Tony_Project1Tests" */;
+			buildPhases = (
+				C1253EB718456E6200428FAA /* Sources */,
+				C1253EB818456E6200428FAA /* Frameworks */,
+				C1253EB918456E6200428FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1253EC118456E6200428FAA /* PBXTargetDependency */,
+			);
+			name = Keiser_Tony_Project1Tests;
+			productName = Keiser_Tony_Project1Tests;
+			productReference = C1253EBB18456E6200428FAA /* Keiser_Tony_Project1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1253E9218456E6100428FAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tony Keiser";
+				TargetAttributes = {
+					C1253EBA18456E6200428FAA = {
+						TestTargetID = C1253E9918456E6200428FAA;
+					};
+				};
+			};
+			buildConfigurationList = C1253E9518456E6100428FAA /* Build configuration list for PBXProject "Keiser_Tony_Project1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1253E9118456E6100428FAA;
+			productRefGroup = C1253E9B18456E6200428FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1253E9918456E6200428FAA /* Keiser_Tony_Project1 */,
+				C1253EBA18456E6200428FAA /* Keiser_Tony_Project1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1253E9818456E6200428FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1253EB618456E6200428FAA /* Images.xcassets in Resources */,
+				C1253EA818456E6200428FAA /* InfoPlist.strings in Resources */,
+				C1253EB118456E6200428FAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1253EB918456E6200428FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1253EC718456E6200428FAA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1253E9618456E6200428FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A0BA5F184D5A9000AB2B0D /* ProteinFactory.m in Sources */,
+				C1253EB418456E6200428FAA /* XYZViewController.m in Sources */,
+				C1A0BA68184D5AF900AB2B0D /* Steak.m in Sources */,
+				C1253EAE18456E6200428FAA /* XYZAppDelegate.m in Sources */,
+				C1A0BA62184D5ABE00AB2B0D /* BaseProtein.m in Sources */,
+				C1A0BA6B184D5B3300AB2B0D /* Tilapia.m in Sources */,
+				C1253EAA18456E6200428FAA /* main.m in Sources */,
+				C1A0BA65184D5AEA00AB2B0D /* Chicken.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1253EB718456E6200428FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1253EC918456E6200428FAA /* Keiser_Tony_Project1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1253EC118456E6200428FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1253E9918456E6200428FAA /* Keiser_Tony_Project1 */;
+			targetProxy = C1253EC018456E6200428FAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1253EA618456E6200428FAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1253EA718456E6200428FAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1253EAF18456E6200428FAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1253EB018456E6200428FAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1253EC518456E6200428FAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1253EC618456E6200428FAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1253ECA18456E6200428FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1253ECB18456E6200428FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1253ECD18456E6200428FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keiser_Tony_Project1/Keiser_Tony_Project1-Prefix.pch";
+				INFOPLIST_FILE = "Keiser_Tony_Project1/Keiser_Tony_Project1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C1253ECE18456E6200428FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keiser_Tony_Project1/Keiser_Tony_Project1-Prefix.pch";
+				INFOPLIST_FILE = "Keiser_Tony_Project1/Keiser_Tony_Project1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C1253ED018456E6200428FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Keiser_Tony_Project1.app/Keiser_Tony_Project1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keiser_Tony_Project1/Keiser_Tony_Project1-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Keiser_Tony_Project1Tests/Keiser_Tony_Project1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C1253ED118456E6200428FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Keiser_Tony_Project1.app/Keiser_Tony_Project1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keiser_Tony_Project1/Keiser_Tony_Project1-Prefix.pch";
+				INFOPLIST_FILE = "Keiser_Tony_Project1Tests/Keiser_Tony_Project1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1253E9518456E6100428FAA /* Build configuration list for PBXProject "Keiser_Tony_Project1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1253ECA18456E6200428FAA /* Debug */,
+				C1253ECB18456E6200428FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1253ECC18456E6200428FAA /* Build configuration list for PBXNativeTarget "Keiser_Tony_Project1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1253ECD18456E6200428FAA /* Debug */,
+				C1253ECE18456E6200428FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1253ECF18456E6200428FAA /* Build configuration list for PBXNativeTarget "Keiser_Tony_Project1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1253ED018456E6200428FAA /* Debug */,
+				C1253ED118456E6200428FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1253E9218456E6100428FAA /* Project object */;
+}
